@@ -1,0 +1,180 @@
+/* styles.css*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h1{
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8
+}
+
+.footer{
+    margin:0px;
+    background-color:#1F2937;
+    padding:4px 100px;
+    justify-content:space-between;
+    align-items:center;
+    display:flex
+}
+.logo{
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+.link ul{
+    display:flex;
+    justify-content:space-between;
+    gap:16px;
+    font-size:18px;
+    color:#E5E7E8;
+    flex-direction:row;
+    list-style-type:none;
+}
+
+
+.hero{
+    display:flex;
+    background-color:#1F2937;
+    padding:40px 100px;
+    color:white;
+    
+}
+
+.left{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:10px;
+}
+
+.right{
+    flex:1;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.hero-pic img{
+    width:700px;
+    height: auto;
+    margin-left:10px;
+}
+
+.hero-button button{
+    background-color: #3882F6;
+    color:white;
+    font-size:18px;
+}
+
+.hero-heading h1{
+    font-size: 48px;
+    font-weight:800;
+    color:#F9FAF8
+}
+
+.hero-text p{
+    font-size:18px;
+    color:#E5E7E8
+
+}
+
+
+
+.information-title{
+    text-align: center;
+    padding-top:20px;
+    font-size:36px;
+    font-weight:800;
+    color:#1F2937;
+}
+
+.information-pages{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding-top:10px;
+    padding-bottom:40px;
+
+}
+
+.page-image1 img{
+    height:120px;
+    weight:120px
+}
+
+.page1{
+    text-align: center;
+}
+
+
+.quote{
+    background-color: #E5E7E8;
+    text-align: center;
+    font-size:18px;
+    color:#1F2937;
+    padding:20px 320px;
+}
+#quote-content{
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#quote-arthur{
+    font-weight:600;
+    text-align: right;
+}
+
+.contact{
+    padding:20px 100px;
+}
+
+.contact-box{
+    background-color: #3882F6;
+    display:flex;
+    justify-content: space-between;
+    padding:4px 210px;
+    height:70px;
+    align-items: center;
+
+
+}
+
+.content-left{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.contact-title{
+    color:#E5E7E8;
+    font-weight:600;
+}
+
+.contact-text{
+    color:#F9FAF8;
+    font-weight:100;
+}
+
+.contact-button{
+    border:2px solid white;
+    border-radius: 3%;
+}
+
+.contact-button button{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-size:18px;
+}
+
+
+
+
